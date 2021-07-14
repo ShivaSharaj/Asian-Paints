@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNg.AsianPaintsTestNg">
+      <class name="testNg.ContractorBasedOnPinTestNg">
         <methods>
-          <include name="launchApplication"/>
-          <include name="invalidPincode"/>
+          <include name="invalidPincode" invocation-numbers="1"/>
           <include name="afterTest"/>
+          <include name="launchApplication"/>
         </methods>
-      </class> <!-- testNg.AsianPaintsTestNg -->
+      </class> <!-- testNg.ContractorBasedOnPinTestNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
